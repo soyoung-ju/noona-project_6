@@ -1,0 +1,153 @@
+/* 공통 */
+body{
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.img{
+    width: 132px;
+    height: 44.984px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* navbar */
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    padding: 28px 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* 메인 */
+.main{
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1ed760;
+}
+.title{
+    font-size: 146px;
+    font-weight: 900;
+}
+.title_1 {
+    line-height: 166px;
+    position: relative;
+    left: -1em;
+}
+.title_2 {
+    line-height: 166px;
+    position: relative;
+    left: 1.5em;
+}
+.sub_title{
+    font-size: 18px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.search{
+    background-color: #2de26d;
+    border-radius: 500px;
+    padding: 14px 32px;
+    color: #2941ab;
+    font-size: inherit;
+    font-weight: 700;
+    border: none;
+}
+.btn{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    height: 530px;
+    background-color: black;
+}
+.footer_menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer_box_1{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 250px;
+}
+.footer-menu-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.footer_menu-item{
+    display: flex;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+a:hover{
+    color: #1ed760;    
+}
+.div-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.footer_box_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-right: 200px;
+}
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.footer-country-box{
+    color: #919496;
+    font-size: 12px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 1500px;
+}
+.footer-country-item{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.footer-etc-box{
+    display: flex;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.footer-etc-item1{
+    margin-right: 24px;
+    color: #919496;
+    font-size: 16px;
+}
+
